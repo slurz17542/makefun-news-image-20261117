@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The World in One Page — 17 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; overflow: hidden; }
+  body {
+    background: #ffffff;
+    color: #111111;
+    font-family: "Noto Serif", "DejaVu Serif", Georgia, serif;
+    padding: 20px 30px 14px 30px;
+  }
+  .sans { font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif; }
+
+  /* ---------- Masthead ---------- */
+  .masthead { text-align: center; border-bottom: 4px solid #111; padding-bottom: 10px; }
+  .masthead .name {
+    font-size: 58px; line-height: 1; font-weight: 900; letter-spacing: 2px;
+  }
+  .masthead .name .red { color: #a31621; }
+  .masthead .dateline {
+    display: flex; justify-content: space-between; align-items: baseline;
+    border-top: 1px solid #111; margin-top: 9px; padding-top: 6px;
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 15px; font-weight: 700; letter-spacing: 1px;
+  }
+  .masthead .dateline .mid { color: #a31621; }
+
+  /* ---------- Lead story ---------- */
+  .lead { padding: 10px 0 9px 0; border-bottom: 1px solid #999; }
+  .kicker {
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 14px; font-weight: 800; letter-spacing: 2px; color: #a31621;
+    text-transform: uppercase;
+  }
+  .lead h1 { font-size: 36px; line-height: 1.08; font-weight: 900; margin: 5px 0 8px 0; }
+  .lead img { width: 100%; height: 180px; object-fit: cover; display: block; }
+  .lead .caption {
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 11.5px; color: #555; margin-top: 4px;
+  }
+  .lead p { font-size: 16px; line-height: 1.3; margin-top: 7px; }
+
+  /* ---------- Three secondary stories ---------- */
+  .trio { display: flex; gap: 18px; padding: 10px 0 9px 0; border-bottom: 1px solid #999; }
+  .trio article { flex: 1; }
+  .trio article + article { border-left: 1px solid #bbb; padding-left: 18px; }
+  .trio img { width: 100%; height: 96px; object-fit: cover; display: block; margin-bottom: 6px; }
+  .trio h2 { font-size: 20px; line-height: 1.12; font-weight: 900; margin: 4px 0 5px 0; }
+  .trio p { font-size: 14px; line-height: 1.3; }
+
+  /* ---------- Two text stories ---------- */
+  .duo { display: flex; gap: 18px; padding: 9px 0 9px 0; border-bottom: 1px solid #999; }
+  .duo article { flex: 1; }
+  .duo article + article { border-left: 1px solid #bbb; padding-left: 18px; }
+  .duo h2 { font-size: 19px; line-height: 1.14; font-weight: 900; margin: 4px 0 4px 0; }
+  .duo p { font-size: 14px; line-height: 1.3; }
+
+  /* ---------- Ticker ---------- */
+  .ticker {
+    background: #111; color: #fff; margin-top: 11px; padding: 8px 14px;
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 13px; line-height: 1.45;
+  }
+  .ticker b { color: #ff5a5a; letter-spacing: 1px; }
+
+  /* ---------- Footer ---------- */
+  .footer {
+    margin-top: 10px; text-align: center;
+    font-family: "Noto Sans", "DejaVu Sans", Arial, sans-serif;
+    font-size: 12.5px; color: #555;
+  }
+</style>
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="name">THE WORLD <span class="red">IN ONE PAGE</span></div>
+    <div class="dateline">
+      <span>TUESDAY</span>
+      <span class="mid">17 NOVEMBER 2026</span>
+      <span>THE DAY&rsquo;S WORLD NEWS</span>
+    </div>
+  </header>
+
+  <section class="lead">
+    <div class="kicker">Ukraine war &mdash; Kerch Strait</div>
+    <h1>Ukraine strike brings down part of Kerch Bridge</h1>
+    <img src="assets/kerch.jpg" alt="A long sea bridge with a collapsed section fallen into the water, smoke rising">
+    <div class="caption">The Kerch Bridge, the road and rail link between Russia and occupied Crimea, after Tuesday&rsquo;s strike.</div>
+    <p>A Ukrainian strike collapsed a road section of the bridge linking Russia to occupied Crimea, with footage verified by CNN showing part of the roadway fallen into the sea. Russia answered with a ballistic-missile attack on Kyiv that hit two bridges over the Dnipro and cut heating and water.</p>
+  </section>
+
+  <section class="trio">
+    <article>
+      <img src="assets/gaza.jpg" alt="A long convoy of white aid trucks crossing a desert border checkpoint">
+      <div class="kicker">Gaza</div>
+      <h2>West presses Israel to open Gaza crossings</h2>
+      <p>Britain, Australia, Canada and Italy jointly urged Israel to let aid in fast, calling the situation catastrophic, as UN agencies warned of a winter emergency for 1.7 million displaced people.</p>
+    </article>
+    <article>
+      <img src="assets/trilateral.jpg" alt="The flags of China, Russia and the United States in a summit hall">
+      <div class="kicker">Diplomacy</div>
+      <h2>Xi, Putin and Trump to meet at APEC</h2>
+      <p>China confirmed a three-way meeting in Shenzhen on Thursday, on the sidelines of the APEC summit, as Trump opened his Asia trip with a Quad summit in Manila.</p>
+    </article>
+    <article>
+      <img src="assets/chips.jpg" alt="Silicon wafers and AI computer chips in a semiconductor factory">
+      <div class="kicker">Technology</div>
+      <h2>US tightens AI chip export curbs</h2>
+      <p>Washington closed a loophole that let AI chips reach China through third countries, with new limits on sales routed via Malaysia, Indonesia and Thailand.</p>
+    </article>
+  </section>
+
+  <section class="duo">
+    <article>
+      <div class="kicker">Asia-Pacific</div>
+      <h2>Japan scrambles jets as Russian planes enter its airspace</h2>
+      <p>Tokyo launched fighter jets and lodged a strong protest after two suspected Russian aircraft violated its airspace early on Tuesday.</p>
+    </article>
+    <article>
+      <div class="kicker">Europe</div>
+      <h2>Five EU states plan Rwanda migrant return hub</h2>
+      <p>Austria, Denmark, Germany, Greece and the Netherlands announced a plan to send rejected asylum seekers to a return hub in Rwanda, with transfers possibly starting in 2027.</p>
+    </article>
+  </section>
+
+  <div class="ticker">
+    <b>ALSO TODAY &nbsp;&middot;&nbsp;</b>
+    Depardieu pleads guilty in Paris sexual-assault case &nbsp;&middot;&nbsp;
+    Mongolia&rsquo;s president resigns amid a corruption scandal &nbsp;&middot;&nbsp;
+    Houthis advance in Yemen as government forces fall back to defend Aden &nbsp;&middot;&nbsp;
+    COP31 climate talks enter a decisive phase in Antalya &nbsp;&middot;&nbsp;
+    Bahrain says it intercepted Iranian drones aimed at a US base
+  </div>
+
+  <div class="footer">This image sums up the world news of Tuesday 17 November 2026.</div>
+
+</body>
+</html>
